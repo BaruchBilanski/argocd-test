@@ -9,7 +9,7 @@ spec:
   source:
     repoURL: 'https://helm.aquasec.com/'
     chart: enforcer
-    targetRevision: 6.5.14
+    targetRevision: 2022.4.71
     helm:
       parameters:
         - name: gate.host
@@ -19,7 +19,7 @@ spec:
         - name: platform
           value: gke
         - name: image.tag
-          value: 6.5.22093
+          value: 2022.4.71
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: aqua
